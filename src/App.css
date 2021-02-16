@@ -9,19 +9,38 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
-.App-header {
+.AppHeader {
   background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("images/appHeaderImage1.jpeg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow: 2px 2px #0f0f0f;
+}
+
+.AppHeader1 {
+  background-color: #342831;
+  background-image: url("images/scriptureBG5.jpg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow: 3px 3px #2c2c2c;
 }
 
 .App-link {
@@ -30,9 +49,23 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(0.75, 0.75);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(0.8, 0.8);
   }
 }
+
+.App-input {
+  width: 100%; 
+  border: 2px solid #00ffff; 
+  border-radius: 4px; 
+}
+
+.headerScripture{
+  background-color: #505050;
+  opacity: 0.7; 
+  width: 50%; 
+  border-radius: 15px;
+}
+
