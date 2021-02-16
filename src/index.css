@@ -17,15 +17,6 @@ code {
   max-width: 100%;
 }
 
-.scripture{
-  height:500px;
-  background-image: url(images/scriptureBG2.jpeg); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center; 
-  padding: 15px;
-  display: flex;   
-}
 
 .outputScript {
   background-color: #242526; 
