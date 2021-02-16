@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%; 
 }
 
 .App-logo {
@@ -14,8 +15,8 @@
 }
 
 .AppHeader {
-  background-color: #282c34;
-  background-image: url("images/appHeaderImage1.jpeg");
+  background-color: #161616;
+  background-image: url("images/appHeaderImage3.jpg");
   background-size: contain; 
   background-repeat: no-repeat;
   min-height: 70vh;
@@ -25,22 +26,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-shadow: 2px 2px #0f0f0f;
+  text-shadow: 1px 1px #0f0f0f;
 }
 
 .AppHeader1 {
-  background-color: #342831;
-  background-image: url("images/scriptureBG5.jpg");
-  background-size: contain; 
-  background-repeat: no-repeat;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  text-shadow: 3px 3px #2c2c2c;
+ width: 80%;
+ padding-left: 10%; 
+ padding-right: 10%; 
+ background-image: url("images/outputBackground1.jpg"); 
+ background-size: cover;
+ background-repeat: no-repeat;  
+ color: rgb(34, 34, 34);   
 }
 
 .App-link {
