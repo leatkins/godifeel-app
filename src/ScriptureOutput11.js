@@ -79,7 +79,7 @@ function ScriptureOutput11(BibleText, scriptureReference){
             <h2>{BibleText}</h2>
             <p>{scriptureReference}</p>
 
-            <iframe width="50%" height="500"  src="https://www.youtube.com/embed/292BxXqbKCo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="80%" height="500"  src="https://www.youtube.com/embed/292BxXqbKCo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
         </div>
