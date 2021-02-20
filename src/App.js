@@ -2,6 +2,7 @@ import './App.css';
 
 import FeelingForm from './FeelingForm'; 
 import logo from './images/GodiFeel-appLogo1.png'
+import PageFooter from './PageFooter'; 
 
 
 function App() {
@@ -23,7 +24,11 @@ function App() {
       
        
         <br /> 
-      
+      <footer>
+
+        <PageFooter /> 
+
+      </footer>
      
     </div>
     </div>
