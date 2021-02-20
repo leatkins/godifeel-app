@@ -71,7 +71,7 @@ function ScriptureOutput8(BibleText, scriptureReference){
         <div>
            
         <br/><br/>
-        <div>
+        <div className="App Content Appheader1">
         <h1>If you are <strong>Worried</strong>, remember these words....</h1>
             
             <br/>
